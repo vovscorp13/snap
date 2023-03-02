@@ -11,7 +11,7 @@
 
   git clone git clone https://github.com/vovscorp13/snap
   
-# cloud (https://cloud.mail.ru/public/bY2v/Ys7nwYyQf)
+# cloud (https://cloclo13.cloud.mail.ru/attach/nodus/nolus_01_03_23_17_56.tar.lz4)
   
 #Unzip the snapshot to a folder
 
