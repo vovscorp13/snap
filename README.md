@@ -9,7 +9,8 @@
   
 #Cloning a Snapshot
 
-  git clone https://cloud.mail.ru/public/bY2v/Ys7nwYyQf
+  git clone git clone https://github.com/vovscorp13/snap
+  https://cloud.mail.ru/public/bY2v/Ys7nwYyQf
   
 #Unzip the snapshot to a folder
 
