@@ -20,5 +20,7 @@
 #Move the validator file and start the service
 
   mv $HOME/.nolus/priv_validator_state.json.backup $HOME/.nolus/data/priv_validator_state.json
+  
   sudo systemctl start nolusd
+  
   sudo journalctl -u nolusd -f --no-hostname -o cat
