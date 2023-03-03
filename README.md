@@ -1,4 +1,5 @@
-                # 1 option
+# 1 option
+
 #Stop the service and move the validator file
 
       sudo systemctl stop nolusd
