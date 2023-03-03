@@ -25,7 +25,8 @@
   
        sudo journalctl -u nolusd -f --no-hostname -o cat
      
-                # 2 option     (windows-server)
+ # 2 option     (windows-server)
+ 
  #Install WinSCP on a local PC (https://winscp.net/eng/download.php) 
  
  #Download the file from the cloud (https://cloclo13.cloud.mail.ru/attach/nolus/nolus_01_03_23_17_56.tar.lz4)
