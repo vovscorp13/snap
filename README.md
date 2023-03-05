@@ -53,6 +53,21 @@
        sudo systemctl start nolusd
   
        sudo journalctl -u nolusd -f --no-hostname -o cat
- 
-     
+       
+  # How to take a snapshot
+#We stop the service and archive the folder, having previously moved the validator file.
+sudo systemctl stop nolusd
+
+cp $HOME/.nolus/data/priv_validator_state.json $HOME/.nolus/priv_validator_state.json.backup
+
+tar cvf - $HOME/.nolus/data | lz4 - nolussnap.tar.lz4 
+
+#Create a snapshot folder, move the archive there and delete the old folder.
+
+mkdir snapshot
+
+mv $HOME/.nolus/data/nolussnap.tar.lz4 $HOME/snapshot
+
+rm -rf $HOME/.nolus/data
+
      
